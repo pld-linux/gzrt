@@ -25,11 +25,11 @@ traktowaæ jako eksperymentalne.
 %setup -q
 
 %build
-%{__make}
+%{__cc} %{rpmldflags} %{rpmcflags} -o gzrecover \
+	-D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 gzrecover.c -lz
 
 %install
 rm -rf $RPM_BUILD_ROOT
-# create directories if necessary
 install -d $RPM_BUILD_ROOT%{_bindir}
 
 install gzrecover $RPM_BUILD_ROOT%{_bindir}
