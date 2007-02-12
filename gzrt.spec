@@ -1,5 +1,5 @@
 Summary:	gzip recovery toolkit
-Summary(pl):	Zestaw naprawczy do gzipa
+Summary(pl.UTF-8):   Zestaw naprawczy do gzipa
 Name:		gzrt
 Version:	0.5
 Release:	1
@@ -16,10 +16,10 @@ The gzip recovery toolkit attempts to automate the recovery of data
 from corrupted gzip files through a program called gzrecover.  This
 package is very experimental at this point.
 
-%description -l pl
-gzrt próbuje zautomatyzowaæ odtwarzanie danych z uszkodzonych archiwów
-gzip z u¿yciem programu gzrecover. To narzêdzie nale¿y jeszcze
-traktowaæ jako eksperymentalne.
+%description -l pl.UTF-8
+gzrt prÃ³buje zautomatyzowaÄ‡ odtwarzanie danych z uszkodzonych archiwÃ³w
+gzip z uÅ¼yciem programu gzrecover. To narzÄ™dzie naleÅ¼y jeszcze
+traktowaÄ‡ jako eksperymentalne.
 
 %prep
 %setup -q
