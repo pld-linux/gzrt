@@ -1,5 +1,5 @@
 Summary:	gzip recovery toolkit
-Summary(pl.UTF-8):   Zestaw naprawczy do gzipa
+Summary(pl.UTF-8):	Zestaw naprawczy do gzipa
 Name:		gzrt
 Version:	0.5
 Release:	1
