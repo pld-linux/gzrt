@@ -1,12 +1,12 @@
 Summary:	gzip recovery toolkit
 Summary(pl.UTF-8):	Zestaw naprawczy do gzipa
 Name:		gzrt
-Version:	0.7
+Version:	0.8
 Release:	1
 License:	GPL v2+
 Group:		Applications/Archiving
 Source0:	http://www.urbanophile.com/arenn/hacking/gzrt/%{name}-%{version}.tar.gz
-# Source0-md5:	b627d300c8f20ae5fc406e24cbe5aba9
+# Source0-md5:	464dd7b12209e0aad619a2429af54d61
 URL:		http://www.urbanophile.com/arenn/hacking/gzrt/gzrt.html
 BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
